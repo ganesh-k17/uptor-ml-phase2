@@ -22,6 +22,7 @@ python --version  # to check the version of python
 
 pip freeze > requirements.txt     # to get the installed libraries into requirements.txt
 
+pip install -r requirements.txt  # to install back to .venv (environment) from requiremnet.txt
 
 
 curl -X POST http://localhost:5001/california-predict \

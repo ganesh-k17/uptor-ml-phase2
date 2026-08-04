@@ -147,6 +147,6 @@ prediction = model(video)
 # 6. PREDICTED CLASS
 # ==========================================
 
-predicted_class = torch.argmax(prediction, dim=1)
+predicted_class = torch.argmax(prediction, dim=1) # torch.softmax(prediction, dim=1)
 
 print("\nPredicted Class :", predicted_class)
