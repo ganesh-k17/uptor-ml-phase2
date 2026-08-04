@@ -1,0 +1,15 @@
+1. Program (CSV)
+   Output: True or False
+   Probability: 0.96
+   True or False (0.6, 60% Chance that is belongs to True, 40 % goes to False)
+
+2. Program (10 output)
+   Output: any among the 10
+   0.6 ( here we can make probability as we more classes)
+
+Training and TEsting:
+
+80% ---> Training
+20% ---> Testing
+
+

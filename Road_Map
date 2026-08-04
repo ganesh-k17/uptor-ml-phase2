@@ -1,0 +1,75 @@
+1. Structured Data - Machine Learning
+     1.1 CSV 1.2 Excel 1.3 DB 1.4 JSON
+     1.a Supervised ----> Knowing the Target what to predict
+            Target Types:
+                1.a.1 Regression  ---> Continuous Data
+                1.b.2 Classification ---> Categorical Data
+                     1.b.2.1 Binary Category ---> Yes or No
+                     1.b.2.2 Multi Category ---> setosa or virginica or versicolor
+            Feature Types: Columns or Dimensions (Non Target Columns)
+                1.c.1 Linear or Non-Linear
+                      Linear ---> having relationship between the columns
+                      Non-Linear ----> having no relationship among the columns
+                1.c.2 Parametric or Non-Parametric
+                      Parametric ---> Focusing on both columns and rows
+                      Non-Parametric ---> Focusing on Column assumptions and relationships
+                1.c.3 Distance Based ---> Calculating relationship by means of distance
+                1.c.4 Hyperplane Based ---> Using Support Vectors
+                1.c.5 Probability
+            1.a.2 Model Types:
+            Linear:
+                 LinearRegression
+                 LogisticRegression
+            Non-Linear and Parametric:
+                 DecisionTreeClassifier
+                 DecisionTreeRegressor
+                 RandomForestRegressor (Bagging Principle - Parallel Processing - Ensemble Technique)
+                 RandomForestClassifier(Bagging Principle - Parallel Processing - Ensemble Technique)
+                 Boosting Algorithm (Boosting Principle - Series Processing - Ensemble Technique)
+                     1. XGBoosting
+                     2. GradientBoosting
+                     3. CatBoosting
+                     4. LightGBMBoosting
+                 Stacking Algorithm (More than one model at a time)
+                     1. Training will be done with different models ,prediction will happen with another
+                     model.
+            Hyperplane: (Binary Classifier)(Linear)
+                 SVM - SVR
+                 SVM - SVC
+            KNN - Distance Based Algorithm (Non-Linear)
+                KNearestClassifier
+                KNearestRegressor
+
+
+     1.b UnSupervised - Without Even Worrying about what our Target or Label is.
+        1.b.1 Clustering
+               a. KMeans Clustering
+               b. Hierarchical Clustering
+                   b.a Agglomerate Clustering
+                   b.b Divisive Clustering
+        1.b.2 Dimensionality Reduction
+              a. PCA (Principle Component Analysis)
+              b. ICA (Important Component Analysis)   (Supervised)
+              c. LDA (Linear Discriminative Analysis) (Supervised)
+        1.b.3 Visualization (Dimension for Visualization)
+             a. t-SNE
+        1.b.4 Outlier Detection
+             b. DBSCAN
+2. Un-Structured Data - Deep Learning (Structure Data Also)
+    2.1 ANN ---(sklearn, tensorflow, pytorch)
+         2.1.1 CSV
+         2.1.2 Image (*current learning)
+    2.2 CNN
+         2.2.1 Image Processing with Deeper Spatial Understanding (RGB)
+    2.3 RNN
+         2.3.1 Video and Audio
+    Semi-Structured - NLP(Natural Language Process or LLM Large Language Model) or Transformers
+    3.1 Notepad 3.2 Sequence
+    2.4 LSTM:
+         2.4.1 Sequence Data
+    2.5 Transformers
+         2.5.1 LLM
+
+3. Prompt Engineering - Front Line - AI Consuming
+4. AI Agent and Agentic AI - MCP --> Building System using predefined model)
+5. MLOps and AIOps
