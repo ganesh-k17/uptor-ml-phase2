@@ -27,6 +27,11 @@ env/
 *.pt
 *.pth
 
+# Local RAG inputs and generated vector indexes
+007-Aug-2026/11-llm/LLM/_LangChain/faiss_index*/
+007-Aug-2026/11-llm/LLM/_LangChain/page_*.png
+007-Aug-2026/20/faiss_index/
+
 # Logs and temporary files
 *.log
 *.tmp
